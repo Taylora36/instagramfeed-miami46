@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/eae9bd1628.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar bg-light">
+    <div class="d-flex">
+            <a class="navbar-brand col-md-4" href="#">
+                <i class="fa-brands fa-instagram p-2 w-100" alt="Logo" width="30" height="24" class="d-inline-block align-text-top"></i>
+                Instagram
+            </a>
+            </div>
+            <div class="p-2 flex-shrink-1">
+                <button class="btn btn-outline-success md-2" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button">Create a new post</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header d-flex">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Caption:</p>
+                            <input class="form-control" type="text" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" value="Add the caption of your post here">
+                           <div class="modal-body"> 
+                            <button><i class="fa-solid fa-camera"></i></button>
+                            <button><i class="fa-solid fa-location-dot"></i></button>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-success">Publish</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-gear"></i>
+                  </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                      <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#" style="color:red">Log out</a></li>
+                    </ul>
+                  </div>
+                  </div>
+                </nav>
+                <div class="d-flex justify-content-center">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                      <a class="nav-link active" data-bs-toggle="tab" href="#home" role="tab"><button class="col btn-sm"><i class="fa-solid fa-table-cells"></i></button></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="tab" href="#menu1" role="tab"><button class="col btn-sm"><i class="fa-solid fa-table"></i></button></a>
+                    </li>
+                  </ul>
+                </div>
+            <div class="tab-content">
+                <div class="tab-pane container active container" id="home" role="tabpanel">
+                  <div class="container">
+                  <div class="row row-cols-md-3 g-3">
+                    <div class="col-md-4">
+                    <img src="https://i0.wp.com/clownfishtv.com/wp-content/uploads/2022/11/StarWarsAndorSeason1Review_Pic04.jpg?w=960&ssl=1" class="img-thumbnail">
+                   </div>
+                   <div class="col-md-4">
+                    <img src="https://variety.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-25-at-10.53.46-PM.png?w=681&h=383&crop=1&resize=681%2C383" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-4">
+                    <img src="https://wallpapercrafter.com/th800/135070-Sith-lightsaber-Star-Wars-science-fiction-artwork-Salvador-Trakal.jpg" class="img-thumbnail">
+                    </div>
+                    </div>
+                    <div class="container">
+                    <div class="row row-cols-md-3 g-3">
+                    <div class="col-md-4">
+                    <img src="https://images.squarespace-cdn.com/content/v1/528b0a4be4b0d32bd54a0862/1439769565258-J8FQJ3S24TJ3BJ9AZGOJ/image-asset.jpeg" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-4">
+                    <img src="https://cdn.jwplayer.com/v2/media/HhYvseJN/poster.jpg?width=1920" class="img-thumbnail">
+                    </div>
+                    <div class="col-md-4">
+                    <img src="https://wallpaperaccess.com/full/2753723.jpg" class="img-thumbnail">
+                    </div>
+                    </div>
+                    </div>
+                    <div class="container">
+                    <div class="row row-cols-md-3 g-3">
+                    <div class="col-md-4">
+                    <img src="https://insidethemagic.net/wp-content/uploads/2022/04/grogu-eating-frog-lady-eggs-800x400.jpeg" class="img-thumbnail">
+                   </div>
+                   <div class="col-md-4">
+                    <img src="https://imageio.forbes.com/blogs-images/jvchamary/files/2017/12/porg-1200x600.jpg?format=jpg&width=960" class="img-thumbnail">
+                   </div>
+                   <div class="col-md-4">
+                    <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/11/Andor-B-2EMO-droid.jpg" class="img-thumbnail">
+                 </div>
+                 </div>
+                 </div>
+                  </div>
+                </div> 
+                   
+            <div class="tab-pane" id="menu1" role="tabpanel">
+              <div class="flex-container">
+                <div class="d-flex aligns-items-center justify-content-center">
+                <div class="card" style="width: 30rem; margin-bottom: 15px">
+                  <div class="row">
+                  <h5 class="card-title col">The Eye of Aldhani</h5>
+                  <span class="col-2">5 BBY</span>
+                </div>
+                <img src="https://i0.wp.com/clownfishtv.com/wp-content/uploads/2022/11/StarWarsAndorSeason1Review_Pic04.jpg?w=960&ssl=1">
+                <div class="card-body">
+                  <span class="card-text"><strong>155 Likes</strong></span>
+                  <p class="card-text" style="padding-top:10px">Front row seats to this celestial event, which occurs once every three years on the planet Aldhani.</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex aligns-items-center justify-content-center">
+              <div class="card" style="width: 30rem; margin-bottom: 15px">
+                <div class="row">
+              <h5 class="card-title col">Baby on Board</h5>
+              <span class="col-2">9 ABY</span>
+            </div>
+                    <img src="https://variety.com/wp-content/uploads/2022/05/Screen-Shot-2022-05-25-at-10.53.46-PM.png?w=681&h=383&crop=1&resize=681%2C383">
+                    <div class="card-body">
+                      <span class="card-text"><strong>1,001 Likes</strong></span>
+                      <p class="card-text" style="padding-top:10px">After trying out jedi training, Grogu decides life is better with his dad.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="d-flex aligns-items-center justify-content-center">
+                    <div class="card" style="width: 30rem; margin-bottom: 15px">
+                      <div class="row">
+                    <h5 class="card-title col">Jedi or Sith</h5>
+                    <span class="col-3">25,000 BBY</span>
+                  </div>
+                          <img src="https://wallpapercrafter.com/th800/135070-Sith-lightsaber-Star-Wars-science-fiction-artwork-Salvador-Trakal.jpg">
+                          <div class="card-body">
+                            <span class="card-text"><strong>66 Likes</strong></span>
+                            <p class="card-text" style="padding-top:10px">Will you be a jedi on May the 4th? Or a sith on Revenge of the Fifth?</p>
+                          </div>
+                        </div>
+                        </div>
+                  <div class="d-flex aligns-items-center justify-content-center">
+               <div class="card" style="width: 30rem; margin-bottom: 15px">
+                <div class="row">
+                <h5 class="card-title col">Travel to New Worlds</h5>
+                <span class="col-2">34 ABY</span>
+              </div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/528b0a4be4b0d32bd54a0862/1439769565258-J8FQJ3S24TJ3BJ9AZGOJ/image-asset.jpeg">
+                    <div class="card-body">
+                      <span class="card-text"><strong>143 Likes</strong></span>
+                      <p class="card-text" style="padding-top:10px">The Millenium Falcon flying to distant worlds in under 12 parsecs.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="d-flex aligns-items-center justify-content-center">
+               <div class="card" style="width: 30rem; margin-bottom: 15px">
+                <div class="row">
+                <h5 class="card-title col">Sunset on Coruscant</h5>
+                <span class="col-2">32 BBY</span>
+              </div>
+                    <img src="https://cdn.jwplayer.com/v2/media/HhYvseJN/poster.jpg?width=1920">
+                    <div class="card-body">
+                      <span class="card-text"><strong>532 Likes</strong></span>
+                      <p class="card-text" style="padding-top:10px">Coruscant's surface was defined by its urban sprawl, which collectively was called Galactic City. Officially renamed as Imperial City during the Imperial Era, the dense city blocks were built on top of each other, with lowest being Level 1 and the highest reaching to Level 5127.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="d-flex aligns-items-center justify-content-center">
+                    <div class="card" style="width: 30rem; margin-bottom: 15px">
+                     <div class="row">
+                     <h5 class="card-title col">Tatooine</h5>
+                     <span class="col-2">0 BBY</span>
+                   </div>
+                         <img src="https://wallpaperaccess.com/full/2753723.jpg">
+                         <div class="card-body">
+                           <span class="card-text"><strong>2 Likes</strong></span>
+                           <p class="card-text" style="padding-top:10px">"I don't like sand. It's coarse and rough and irritating and it gets everywhere."</p>
+                         </div>
+                       </div>
+                       </div>
+                  <div class="d-flex aligns-items-center justify-content-center">
+               <div class="card" style="width: 30rem; margin-bottom: 15px">
+                <div class="row">
+                <h5 class="card-title col">Snack Time</h5>
+                <span class="col-2">9 ABY</span>
+              </div>
+                    <img src="https://insidethemagic.net/wp-content/uploads/2022/04/grogu-eating-frog-lady-eggs-800x400.jpeg">
+                    <div class="card-body">
+                      <span class="card-text"><strong>908 Likes</strong></span>
+                      <p class="card-text" style="padding-top:10px">A list of foods Grogu likes to eat: frogs, bone broth, baby ice spider, Frog Lady's eggs, blue space macarons.</p>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="d-flex aligns-items-center justify-content-center">
+              <div class="card" style="width: 30rem; margin-bottom: 15px">
+                <div class="row">
+              <h5 class="card-title col">Porgs!</h5>
+              <span class="col-2">34 ABY</span>
+            </div>
+                    <img src="https://popcornerreviews.com/wp-content/uploads/2019/12/porgs-from-star-wars.jpg">
+                    <div class="card-body">
+                      <span class="card-text"><strong>876 Likes</strong></span>
+                      <p class="card-text" style="padding-top:10px">Porgs were a species of sea-dwelling beakless bird. They were native to the planet Ahch-To, where Jedi Master Luke Skywalker made his exile in the years prior to the Battle of Crait.</p>
+                    </div>
+                    </div>
+                    </div>
+                    <div class="d-flex aligns-items-center justify-content-center">
+                      <div class="card" style="width: 30rem; margin-bottom: 15px">
+                       <div class="row">
+                       <h5 class="card-title col">B2EMO</h5>
+                       <span class="col-2">5 BBY</span>
+                     </div>
+                           <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/11/Andor-B-2EMO-droid.jpg">
+                           <div class="card-body">
+                             <span class="card-text"><strong>999 Likes</strong></span>
+                             <p class="card-text" style="padding-top:10px">I would die for this droid.</p>
+                           </div>
+                         </div>
+                         </div>
+              </div>
+            </div>
+            </div>
+          </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
